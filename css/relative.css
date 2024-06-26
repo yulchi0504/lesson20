@@ -1,0 +1,141 @@
+.relative-bg {
+  background-color: var(--colorBlack);
+}
+.abs-one {
+  position: relative;
+  bottom: 150px;
+  right: 25px;
+}
+.abs-two {
+  position: relative;
+  right: 140px;
+}
+.abs-three {
+  position: relative;
+  bottom: 140px;
+  right: 90px;
+}
+.abs-four {
+  position: relative;
+  bottom: 145px;
+  left: 500px;
+}
+.abs-five {
+  position: relative;
+  bottom: 140px;
+  left: 650px;
+}
+.abs-six {
+  position: relative;
+  left: 540px;
+}
+.made-esey {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 432px;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 1.2000000476837158px;
+  text-align: center;
+  color: var(--colorWhite);
+  position: relative;
+  bottom: 150px;
+}
+.link-p {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 357px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  color: var(--colorHov);
+  position: relative;
+  bottom: 120px;
+}
+@media (max-width: 1330px) {
+  .rel {
+    width: 100%;
+  }
+  .abs-five {
+    position: relative;
+    left: 200px;
+  }
+  .abs-four {
+    position: relative;
+    left: 150px;
+  }
+  .abs-two {
+    position: relative;
+    right: 120px;
+  }
+  .abs-six {
+    position: relative;
+    left: 100px;
+  }
+}
+@media (max-width: 780px) {
+  .link-p {
+    position: relative;
+    bottom: 0;
+  }
+  .made-esey {
+    position: relative;
+    bottom: 15px;
+  }
+  .abs-five {
+    position: relative;
+    left: 0;
+  }
+  .abs-four {
+    position: relative;
+    left: 0;
+  }
+  .abs-six {
+    position: relative;
+    left: 0;
+  }
+}
+@media (max-width: 530px) {
+  .abs-one {
+    max-width: 50px;
+    display: none !important;
+  }
+  .abs-two {
+    position: relative;
+    left: 1px;
+    max-width: 70px;
+    display: none !important;
+  }
+  .abs-three {
+    max-width: 70px;
+    display: none !important;
+  }
+  .abs-five {
+    display: none !important;
+    position: relative;
+    left: 120px;
+  }
+  .abs-six {
+    display: none !important;
+    max-width: 60px;
+    position: relative;
+    right: 50px;
+  }
+  .abs-four {
+    display: none !important;
+  }
+  .made-esey {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .link-p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

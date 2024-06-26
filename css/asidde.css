@@ -1,0 +1,158 @@
+aside {
+  background-color: var(--colorBlack);
+}
+.aside-mene {
+  display: flex;
+  justify-content: center;
+}
+.aside-menu-item {
+  display: flex;
+  gap: 33px;
+  border-bottom: 1px solid var(--colorHov);
+}
+.aside-item-link {
+  display: flex;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20.57px;
+  text-align: center;
+  color: var(--colorHov);
+  padding-bottom: 13px;
+}
+.aside-item-link:hover {
+  transition: 1s;
+  color: var(--colorWhite);
+  border-bottom: 1px solid #ffffff;
+}
+.aside-p {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 603px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  color: var(--colorWhite);
+  padding-top: 46px;
+}
+.develop {
+  display: flex;
+  padding: 131px 0 400px 0;
+}
+.ios-text {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.73px;
+  letter-spacing: 1.899999976158142px;
+  text-align: center;
+  color: var(--colorWhite);
+}
+.anyme-h1 {
+  display: flex;
+  max-width: 534px;
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 104px;
+  font-weight: 400;
+  line-height: 104px;
+  letter-spacing: 2.5999999046325684px;
+  text-align: center;
+  color: var(--colorWhite);
+}
+.anime-text {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 434px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  color: var(--colorHov);
+  padding: 39px 0;
+}
+.learn-more {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  color: var(--colorBtn);
+  padding: 26px 0 212px 0;
+}
+@media (max-width: 1120px) {
+  .develop {
+    width: 100%;
+  }
+  .macAp {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .aside-menu-item {
+    gap: 20px;
+  }
+  .aside-item-link {
+    font-size: 14px;
+  }
+  .aside-p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .anyme-h1 {
+    font-size: 55px;
+  }
+  .anime-text {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 565px) {
+  .develop {
+    padding: 131px 0 200px 0;
+  }
+  .anyme-h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+@media (max-width: 470px) {
+  .aside-menu-item {
+    gap: 10px;
+  }
+  .aside-item-link {
+    font-size: 12px;
+  }
+  .aside-p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .ios-text {
+    font-size: 24px;
+  }
+  .anyme-h1 {
+    font-size: 30px;
+  }
+  .anime-text {
+    padding: 5px 0 212px 0;
+  }
+  .anime-text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 380px) {
+  .anyme-h1 {
+    font-size: 25px;
+  }
+  .aside-item-link {
+    font-size: 10px;
+  }
+}

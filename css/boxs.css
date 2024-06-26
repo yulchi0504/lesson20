@@ -1,0 +1,127 @@
+.box-bg {
+  background-color: var(--colorBlack);
+}
+.box-s {
+  background-color: var(--colorAct);
+  width: 341px;
+  height: 432px;
+}
+.box-brand {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+}
+.box-item {
+  padding-top: 64px;
+}
+.box-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.box-h3 {
+  font-family: "Roboto" sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: center;
+  color: var(--colorWhite);
+  padding-top: 15px;
+}
+.box-text-p {
+  display: flex;
+  margin-right: auto;
+  margin-right: auto;
+  max-width: 203px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+  color: var(--colorHov);
+  margin-top: 18px;
+  margin-left: 69px;
+}
+.box-s:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.js-bg {
+  width: 100%;
+  height: 763px;
+  background-color: var(--colorBlack);
+  background-image: url(../img/jas-bg.png);
+}
+.js-h1 {
+  display: flex;
+  margin: 0 auto;
+  max-width: 450px;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 1.2000000476837158px;
+  text-align: center;
+  color: var(--colorWhite);
+  padding-top: 91px;
+}
+.box-one-js {
+  max-width: 341px;
+  height: 412px;
+  background-color: var(--colorAct);
+}
+.box-one-js {
+  display: flex;
+  justify-content: center;
+}
+.one-img {
+  display: flex;
+  margin: 0 auto;
+}
+.box-in {
+  padding-top: 64px;
+}
+.js-h1-one {
+  max-width: 167px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: center;
+  color: var(--colorWhite);
+}
+.js-text-p {
+  max-width: 207px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+  color: var(--colorHov);
+  padding-top: 18px;
+}
+.box-js-flex {
+  display: flex;
+}
+.js-img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 112px;
+  height: 80px;
+}
+.box-js {
+  background-color: var(--colorAct);
+  width: 341px;
+  height: 412px;
+  border-radius: 4px;
+}
+.box-js:hover {
+  transform: scale(1.07);
+  transition: 1s;
+  box-shadow: 1px 15px 20px 5px var(--colorHov);
+}
